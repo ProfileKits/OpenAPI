@@ -160,6 +160,7 @@ public class OpenMapUtil {
             activity.startActivity(intent);
         }
     }
+    
 
     private static void toBaidu(Activity activity, String title, String latitude, String longitude) {
         Intent intent;
