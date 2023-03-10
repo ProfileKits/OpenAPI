@@ -207,7 +207,7 @@ public class OpenMapUtil {
             }
 
             if(count==0){
-                Toast.makeText(activity,options.getNotMapTips().isEmpty()?"请先安装地图APP":options.getNotMapTips(),Toast.LENGTH_LONG).show();
+                Toast.makeText(activity,(options.getNotMapTips()!=null&&options.getNotMapTips().isEmpty())?"请先安装地图APP":options.getNotMapTips(),Toast.LENGTH_LONG).show();
                 return;
             }
 
